@@ -20,4 +20,6 @@ urlpatterns = patterns('',
     url(r'^home$', 'my_app.views.home', name='home'),
     url(r'^help$', 'my_app.views.help', name='help'),
     url(r'^$', 'my_app.views.index', name='index'),
+    url(r'^contact$', 'my_app.views.contact', name='contact'),
+    url(r'^signup$', 'my_app.views.signup', name='signup'),
 )

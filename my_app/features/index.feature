@@ -15,5 +15,7 @@ Feature: Probando BDD con lettuce en django
     Scenario: Index page
         Given I access the url "/"
         Then I see the header "Index page"
-        
-    
+
+    Scenario: Contact page
+        Given I access the url "/contact"
+        Then I see the header "Contact"

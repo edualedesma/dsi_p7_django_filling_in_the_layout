@@ -29,3 +29,9 @@ def about(request):
 
 def base(request):
     return render_to_response('base_index.html')
+
+def contact(request):
+	return render_to_response('contact.html')
+
+def signup(request):
+	return render_to_response('signup.html')
